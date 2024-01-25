@@ -1,0 +1,101 @@
+/*body*/
+
+h2{
+    color: #FFFFFF;
+}
+
+body {
+    background-color: #C0C0C0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/*nav*/
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0055A4;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #03396c;
+}
+
+/*form*/
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #0055A4;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #0055A4;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #03396c;
+}
+
+/*records*/
+
+.existing-records {
+    margin-top: 20px;
+}
+
+.records-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.records-list li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.pokemon-name {
+    font-weight: bold;
+    color:  #0055A4;
+}
+
+.trainer-name {
+    font-style: italic;
+    color: #EF4135;
+}
